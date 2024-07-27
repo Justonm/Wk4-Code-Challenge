@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#movie-details {
+    margin-bottom: 20px;
+}
+
+#poster {
+    width: 200px;
+    height: auto;
+}
+
+#films {
+    list-style-type: none;
+    padding: 0;
+}
+
+.film-item {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.film-item.sold-out {
+    text-decoration: line-through;
+}
